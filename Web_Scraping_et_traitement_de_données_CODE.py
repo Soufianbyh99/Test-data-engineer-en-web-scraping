@@ -11,7 +11,7 @@ import re
 from bs4 import BeautifulSoup
 
 
-# URL des pages web à scraper
+
 data = []
 data1 = []
 data2=[]
@@ -21,7 +21,7 @@ def scraping_data():
     data1 = []
     data2=[]
     data_collecter = {}
-        
+# URL des pages web à scraper        
     URLs=["https://www.creditmutuel.fr/fr/particuliers/epargne/livret-de-developpement-durable.html","https://www.monabanq.com/fr/produits-bancaires/livret-developpement-durable/en-resume.html","https://www.banquepopulaire.fr/bpaura/epargner/livret-transition-energetique/"]
     for url in URLs :
  # Envoi de la requête HTTP GET
